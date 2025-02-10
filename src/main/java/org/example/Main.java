@@ -3,6 +3,7 @@ package org.example;
 import org.example.utils.FindDuplicate;
 import org.example.utils.RemoveDuplicate;
 import org.example.utils.SortingArray;
+import org.example.utils.TemperatureFinder;
 
 import java.util.ArrayList;
 import java.util.Arrays;
