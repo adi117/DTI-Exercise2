@@ -5,8 +5,8 @@ public class Reverse {
         String[] arrayText = text.split("");
         StringBuilder reversedString = new StringBuilder();
 
-        for (int i = 0; i < text.length(); i++){
-            reversedString.append(arrayText[text.length() - i]);
+        for (int i = 0; i < arrayText.length; i++){
+            reversedString.append(arrayText[arrayText.length - i - 1]);
         }
 
         return reversedString.toString();
