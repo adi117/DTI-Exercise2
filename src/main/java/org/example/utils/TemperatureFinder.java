@@ -10,12 +10,12 @@ public class TemperatureFinder {
 
             int checker = 0;
 
-            for (int j = i; j < temperature.length; j++){
+            for (int j = i + 1; j < temperature.length; j++){
+                checker++;
                 if (temperature[j] > temperature[i] && checker != temperature.length){
                     temperatureRange[i] = checker;
                     break;
                 }
-                checker++;
             }
         }
 
